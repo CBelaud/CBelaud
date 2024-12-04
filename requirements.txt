@@ -1,2 +1,1 @@
-import streamlit as st
-from streamlit_authenticator import Authenticate
+streamlit==1.14.0
