@@ -23,7 +23,7 @@ authenticator = Authenticate(
     30, # Le nombre de jours avant que le cookie expire 
 )
 
-authenticator.login()
+authenticator.login("My Login Form")
 
 if st.session_state["authentication_status"] is True:
   # Sidebar pour la navigation
